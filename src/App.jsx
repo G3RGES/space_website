@@ -4,6 +4,7 @@ import React from "react";
 // assets
 import bgVideo from "./assets/earth-bg.mp4";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <source src={bgVideo} type="video/mp4" />
         </video>
         <Navbar />
+        <Hero />
       </div>
     </div>
   );
