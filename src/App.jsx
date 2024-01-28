@@ -5,6 +5,7 @@ import React from "react";
 import bgVideo from "./assets/earth-bg.mp4";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Services />
     </div>
   );
 };
