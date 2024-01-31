@@ -23,7 +23,12 @@ const Banner = () => {
               expedita corporis, non doloremque. Consequatur consectetur
               quisquam qui sunt.
             </p>
-            <button className="">Learn More</button>
+            <button
+              className="bg-blue-500 text-white mt-2 hover:bg-blue-600
+             px-4 py-1 rounded-md duration-200"
+            >
+              Learn More
+            </button>
           </div>
         </div>
       </div>
