@@ -2,12 +2,12 @@
 import React from "react";
 
 // icons
-import { FaReact } from "react-icons/fa";
 import { FaShuttleSpace, FaSpaceAwesome } from "react-icons/fa6";
 import { GiGalaxy } from "react-icons/gi";
 
 // assets
 import wave from "../assets/wave Gif.gif";
+import mountin from "../assets/moon-surface-hd.png";
 
 const serviceData = [
   {
@@ -64,6 +64,8 @@ const Services = () => {
           />
         </div>
       </div>
+      {/* surface section */}
+      <img className="" src={mountin} alt="surface" />
     </div>
   );
 };
