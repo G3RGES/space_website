@@ -8,7 +8,9 @@ import bgVideo from "./assets/earth-bg.mp4";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
-import Banner from "./components/Banner";
+import Rapidscat from "./components/Rapidscat";
+import Satelite from "./components/Satelite";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -28,7 +30,11 @@ const App = () => {
 
       {/* Services Section */}
       <Services />
-      <Banner />
+      <Rapidscat />
+      <Satelite />
+
+      {/*  Footer Section */}
+      <Footer />
     </div>
   );
 };
