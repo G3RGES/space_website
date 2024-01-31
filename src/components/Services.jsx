@@ -42,8 +42,10 @@ const Services = () => {
       <div className="container">
         <div className="min-h-[400px] ">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-10">
-            {serviceData.map((data, idx) => (
-              <div key={idx} className=""></div>
+            {serviceData.map((service, idx) => (
+              <div key={idx} className="text-white">
+                <h1 className="">{service.title}</h1>
+              </div>
             ))}
           </div>
         </div>
