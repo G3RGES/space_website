@@ -18,12 +18,7 @@ const Hero = () => {
               tempora similique dignissimos repellat aperiam veniam culpa
               consequatur repudiandae asperiores saepe.
             </p>
-            <button
-              className="bg-blue-500 text-white hover:bg-blue-600
-            py-1 px-4 rounded-md duration-300"
-            >
-              Learn More
-            </button>
+            <button className="primary-btn ">Learn More</button>
           </div>
           <div className=""></div>
         </div>
