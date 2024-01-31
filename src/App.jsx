@@ -22,6 +22,8 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+
+      {/* Services Section */}
       <Services />
     </div>
   );
