@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
+// assets
+import mountin from "../assets/moon-surface-hd.png";
+
 const Hero = () => {
   return (
     <div className="bg-black/20 h-full text-white relative z-50">
@@ -25,6 +28,18 @@ const Hero = () => {
           <div className=""></div>
         </div>
       </div>
+      {/* surface section */}
+      <img
+        className="absolute right-0 bottom-0 w-full brightness-50 z-10"
+        src={mountin}
+        alt="surface"
+      />
+      {/* bottom gradient overlay */}
+      <div
+        className="absolute bottom-0 w-full z-30
+       bg-gradient-to-b from-transparent from-10% to-black to-90% h-[20px]
+       sm:h-[50px] md:h-[60px] "
+      ></div>
     </div>
   );
 };
