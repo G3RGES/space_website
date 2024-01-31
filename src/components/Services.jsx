@@ -7,7 +7,6 @@ import { GiGalaxy } from "react-icons/gi";
 
 // assets
 import wave from "../assets/wave Gif.gif";
-import mountin from "../assets/moon-surface-hd.png";
 
 const serviceData = [
   {
@@ -64,8 +63,6 @@ const Services = () => {
           />
         </div>
       </div>
-      {/* surface section */}
-      <img className="" src={mountin} alt="surface" />
     </div>
   );
 };
