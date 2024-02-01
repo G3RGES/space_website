@@ -109,11 +109,22 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="hidden sm:block">
-            <div className="">
-              <span className="text-sm text-gray-400">
-                @copyright 2024 Travery || Dilshad
-              </span>
+        </div>
+        <div className="hidden sm:block">
+          <div className="flex justify-between items-center py-6 border-t-2 border-t-gray-400">
+            <span className="text-sm text-gray-400">
+              @copyright 2024 G3RGES ||
+            </span>
+            <div className="flex flex-row items-center justify-center gap-4 pb-4">
+              <a href="https://www.instagram.com/gergesnashaat/">
+                <FaInstagram className="text-4xl" />
+              </a>
+              <a href="https://www.facebook.com/gergesnashaat95">
+                <FaFacebook className="text-4xl" />
+              </a>
+              <a href="https://www.linkedin.com/in/gergesnashaat/">
+                <FaLinkedin className="text-4xl" />
+              </a>
             </div>
           </div>
         </div>
