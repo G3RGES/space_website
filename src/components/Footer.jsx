@@ -7,7 +7,7 @@ const Footer = () => {
       <section className="max-w-[1200px] mx-auto  ">
         <div className="grid md:grid-cols-3 py-5 ">
           {/* first column */}
-          <div className="">
+          <div className="py-8 px-4">
             <h1 className="text-xl sm:text-3xl font-bold sm:text-left mb-3">
               Be Ready To Grow
             </h1>
@@ -29,8 +29,34 @@ const Footer = () => {
             </div>
           </div>
           {/* second column */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 ">
-            <div className=""></div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">
+            <div className="">
+              <div className="py-8 px-4">
+                <h1 className="text-xl font-bold mb-3">Important Links</h1>
+                <ul className="flex flex-col gap-3">
+                  <li className="">
+                    <a className="" href="#">
+                      Home
+                    </a>
+                  </li>
+                  <li className="">
+                    <a className="" href="#">
+                      About
+                    </a>
+                  </li>
+                  <li className="">
+                    <a className="" href="#">
+                      Services
+                    </a>
+                  </li>
+                  <li className="">
+                    <a className="" href="#">
+                      Login
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
