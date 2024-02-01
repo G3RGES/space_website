@@ -68,22 +68,22 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li className="">
                     <a className="" href="#">
-                      Home
+                      Rapidscat
                     </a>
                   </li>
                   <li className="">
                     <a className="" href="#">
-                      About
+                      Satelites
                     </a>
                   </li>
                   <li className="">
                     <a className="" href="#">
-                      Services
+                      Excavation
                     </a>
                   </li>
                   <li className="">
                     <a className="" href="#">
-                      Login
+                      Cosmos
                     </a>
                   </li>
                 </ul>
@@ -91,7 +91,7 @@ const Footer = () => {
             </div>
             <div className="">
               <div className="py-8 px-4">
-                <h1 className="text-xl font-bold mb-3">Contact Us</h1>
+                <h1 className="text-xl font-bold mb-1">Contact Us</h1>
               </div>
               <div className="flex flex-col gap-3">
                 <div className="flex flex-row items-center gap-1">
@@ -107,6 +107,13 @@ const Footer = () => {
                   <p>+20 01203346582</p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="hidden sm:block">
+            <div className="">
+              <span className="text-sm text-gray-400">
+                @copyright 2024 Travery || Dilshad
+              </span>
             </div>
           </div>
         </div>
