@@ -126,6 +126,21 @@ const Footer = () => {
                 <FaLinkedin className="text-4xl" />
               </a>
             </div>
+            <span className="text-sm text-gray-400">
+              <ul className="flex flex-row gap-3">
+                <li className="hover:text-white">
+                  <a className="" href="#">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li className="text-gray-600">||</li>
+                <li className="hover:text-white">
+                  <a className="" href="#">
+                    Terms & Conditions
+                  </a>
+                </li>
+              </ul>
+            </span>
           </div>
         </div>
       </section>
