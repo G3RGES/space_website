@@ -17,7 +17,7 @@ const Navbar = () => {
             <img className="w-10" src={Logo} alt="logo" />
             <span className="">TCJ-Space</span>
           </div>
-          <div className="text-white">
+          <div className="text-white hidden md:block">
             <ul className="flex items-center gap-6 text-xl py-4 sm:py-0">
               <li className="">
                 <a className="" href="#">
