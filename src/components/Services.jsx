@@ -44,6 +44,8 @@ const Services = () => {
             {serviceData.map((service, idx) => (
               <div
                 key={idx}
+                data-aos="zoom-in-up"
+                data-aos-delay={service.aosDelay}
                 className="min-h-[180px] flex flex-col justify-center items-center gap-2
                 bg-sky-900/60 rounded-xl backdrop-blur-sm text-center text-2xl py-8
                 px-3 w-full lg:w-[300px] mx-auto "
