@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useEffect } from "react";
 
 // assets
 import bgVideo from "./assets/earth-bg.mp4";
@@ -12,7 +12,18 @@ import Rapidscat from "./components/Rapidscat";
 import Satelite from "./components/Satelite";
 import Footer from "./components/Footer";
 
+// aos
+import AOS from "aos";
+import "aos/dist/aos.css"; // => include styles
+
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out",
+    });
+  });
+
   return (
     <div className="">
       <div className="h-[700px] relative">
